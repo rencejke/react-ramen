@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components
+{
+  .btn
+  {
+    @apply bg-btnClr py-2 px-6 text-white font-extrabold uppercase text-[16px]
+  }
+  .btn2
+  {
+    @apply bg-[#433D3C] py-2 px-6 text-white font-extrabold uppercase text-[16px]
+  }
+
+}
